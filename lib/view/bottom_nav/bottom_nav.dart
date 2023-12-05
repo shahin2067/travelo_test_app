@@ -4,6 +4,7 @@ import 'package:flutter_keyboard_visibility/flutter_keyboard_visibility.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:travelo_test_app/utils/colors.dart';
 import 'package:travelo_test_app/view/auth/sign_in/sign_in_page.dart';
+import 'package:travelo_test_app/view/auth/sign_up/sign_up_page.dart';
 import 'package:travelo_test_app/view/user/home_page.dart';
 
 class BottomNavController extends HookWidget {
@@ -15,7 +16,7 @@ class BottomNavController extends HookWidget {
       const HomePage(),
       const SignInPage(),
       const HomePage(),
-      const SignInPage(),
+      const SignUpPage(),
     ];
 
     final PageStorageBucket bucket = PageStorageBucket();
